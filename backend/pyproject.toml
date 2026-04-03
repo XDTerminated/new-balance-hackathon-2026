@@ -1,0 +1,16 @@
+[project]
+name = "vibe-outfit-backend"
+version = "1.0.0"
+description = "Backend for Vibe Outfit Builder Chrome Extension"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "python-dotenv>=1.0.0",
+    "groq>=1.0.0",
+    "python-multipart>=0.0.9",
+    "aiosqlite>=0.20.0",
+    "pydantic>=2.0.0",
+    "gradio_client>=1.0.0",
+    "pillow>=10.0.0",
+]
